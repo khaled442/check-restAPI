@@ -1,0 +1,29 @@
+.add-title{
+    font-family: sans-serif;
+    color: black;
+    font-style: oblique;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 170px;
+
+}
+.Btn {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.form-control{
+    background-color: rgba(15,15,15,0.1);
+}
+
+.Btn:hover{
+    color: black;
+}
+
+.model{
+    background-color: rgba(15,15,15,0.9);
+}

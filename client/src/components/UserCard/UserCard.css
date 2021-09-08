@@ -1,0 +1,65 @@
+/* 
+
+ .user-card{
+  display:flex;
+  justify-content:space-around;
+  flex-direction: row;
+} 
+.card-image {
+  flex-direction: row;
+} */
+ 
+body {
+  background: rgb(27, 27, 27);
+  
+}
+.user-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background: white;
+  width: 220px;
+  margin: 10px;
+  border-radius: 15px 15px 0 0 ;
+  
+}
+.card-image {
+  height: 170px;
+  margin-bottom: 15px;
+  background-image: url("https://cdn.futura-sciences.com/buildsv6/images/wide1920/a/0/a/a0a74adca1_50147933_developpeur-web1.jpg");
+  background-size: cover;
+}
+.card h2 {
+    padding: 10px;
+}
+.card h3 {
+    padding: 10px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+} 
+.title{
+  font-size: 25px;
+  text-align: center;
+}
+.sous-title{
+  text-align: center;
+  margin: 8px;
+}
